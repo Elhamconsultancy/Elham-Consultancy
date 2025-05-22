@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELHAM Consultancy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #111827;
+    }
+    header, footer {
+      background-color: #1f2937;
+      color: white;
+      padding: 1rem 2rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #e5e7eb;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      color: #374151;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #1f2937;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <h1>ELHAM</h1>
+      <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#courses">Courses</a>
+        <a href="#partners">Partners</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <h1>Empowering Learning through Holistic Advancement and Mentorship</h1>
+    <p>Training Minds. Transforming Lives.</p>
+  </div>
+
+  <section id="about">
+    <h2>About ELHAM</h2>
+    <p><strong>ELHAM</strong> stands for <em>Empowering Learning through Holistic Advancement and Mentorship</em>. We equip individuals with the knowledge and skills they need, addressing personal, professional, and institutional growth through mentorship and continuous support.</p>
+
+    <h3>Vision</h3>
+    <p>ELHAM envisions a resilient, knowledgeable, and self-reliant society where individuals and institutions thrive through inclusive and transformative learning. We strive to become a leading consultancy in Afghanistan and the region by delivering innovative, culturally relevant, and high-impact training and mentorship solutions.</p>
+
+    <h3>Mission</h3>
+    <p>Our mission is to deliver accessible, high-quality, and context-driven training and capacity-building programs that empower individuals, organizations, and communities. We specialize in project and financial management, taxation, monitoring and evaluation, humanitarian response, and digital literacy. Through a learner-centered approach and evidence-based methods, we aim to bridge knowledge gaps and promote sustainable growth.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Training Programs: Project Management, Finance & Taxation, Monitoring, Evaluaation, Learning and Accountability MEAL, MTOT Master Training of Trainers, HRM, Protection, Humanitarian Response, SPSS, STATA, QUICKBOOKS, KOBO</li>
+      <li>Software Skills: KOBO, SPSS, STATA, QuickBooks</li>
+      <li>Customized Capacity Building and Mentorship</li>
+      <li>Consulting and Technical Assistance</li>
+      <li>Digital and E-Learning Solutions</li>
+    </ul>
+  </section>
+
+  <section id="courses">
+    <h2>Courses</h2>
+    <p>Explore our upcoming courses, registration details, and testimonials from our learners. (This section can later include dynamic content.)</p>
+  </section>
+
+  <section id="partners">
+    <h2>Partners</h2>
+    <p>Partner with ELHAM to promote skill development and learning in Afghanistan and beyond. Contact us to explore affiliation and collaborative opportunities.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@elhamconsult.org</p>
+    <p>Phone: +93-XXX-XXXXXXX</p>
+    <p>Address: Kabul, Afghanistan</p>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <span>© 2025 ELHAM Consultancy</span>
+      <span><a href="#" style="color:white">Privacy Policy</a> | <a href="#" style="color:white">Terms of Use</a></span>
+    </div>
+  </footer>
+</body>
+</html>
